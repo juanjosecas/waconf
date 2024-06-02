@@ -41,69 +41,71 @@ Install the dependencies
 
 Ensure you have pip installed. Then run:
 
-sh
-Copy code
+```sh
 pip install PyQt5
 Run the script
+```
 
-sh
-Copy code
+```sh
 python wacom_configurator.py
-Bash Version
-Clone the repository
+```
 
-sh
-Copy code
+Bash Version
+
+Clone the repository
+```sh
 git clone https://github.com/juanjosecas/waconf.git
 cd waconf
+```
+
 Make the script executable
 
-sh
-Copy code
+```sh
 chmod +x wacom_config.sh
+```
+
 Run the script
 
-sh
-Copy code
+```sh
 ./wacom_config.sh
+```
+
 Usage
+
 Python Version
-Launch the application
 
-Running the script will open a window displaying connected Wacom devices and screens.
-
-Select devices and screens
-
-Select a Wacom device from the list.
-Select a screen from the list.
-Map the device to the screen
-
-Click the "Map Wacom to Screen" button to map the selected device to the selected screen.
-Additional configurations
-
-Use the buttons in the interface to configure pressure sensitivity, pen buttons, and tablet orientation.
-Exit
-
+- Launch the application
+- Running the script will open a window displaying connected Wacom devices and screens.
+- Select devices and screens
+- Select a Wacom device from the list.
+- Select a screen from the list.
+- Map the device to the screen
+- Click the "Map Wacom to Screen" button to map the selected device to the selected screen.
+- Additional configurations. Use the buttons in the interface to configure pressure sensitivity, pen buttons, and tablet orientation.
+- Exit
 You can close the application by clicking the "Exit" button or pressing the q key.
+
 Bash Version
-List screens and devices
 
-The script will automatically list all connected screens and Wacom devices when started.
-
-Menu options
-
+- List screens and devices
+- The script will automatically list all connected screens and Wacom devices when started.
+- Menu options
 1. List Connected Screens: Displays all connected screens with their numbers and primary status.
 2. List Wacom Devices: Displays all Wacom devices connected to the system.
 3. Map Wacom Device to a Screen: Prompts to select a Wacom device ID and a screen number to map the device to the screen.
 4. Exit: Exits the script. You can also press q to exit.
+
 Contribution
+
 If you wish to contribute to this project, please follow these steps:
 
 Fork the project.
+
 Create a new branch (git checkout -b feature/new-feature).
 Make your changes and commit them (git commit -am 'Add new feature').
 Push to the branch (git push origin feature/new-feature).
 Open a Pull Request.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
